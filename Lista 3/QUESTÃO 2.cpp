@@ -4,9 +4,9 @@ using namespace std;
 
 int main()
 {
-int a,g,ag;
+float a,g,ag;
 
-cout <<"Digite o valor do álcool: "<< endl;
+cout <<"Digite o valor do Ã¡lcool: "<< endl;
 cin >> a;
 
 cout <<"Digite o valor da gasolina: " <<endl;
@@ -15,10 +15,10 @@ cin >> g;
 ag = a/g;
 
 if (ag < 0.7){
-cout <<"Abasteça com álcool";
+cout <<"AbasteÃ§a com Ã¡lcool";
 }
 else {
-cout <<"Abasteça com gasolina";
+cout <<"AbasteÃ§a com gasolina";
 }
 
 
