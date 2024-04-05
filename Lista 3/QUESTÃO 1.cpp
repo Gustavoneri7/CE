@@ -4,9 +4,9 @@ using namespace std;
 
 int main()
 {
-	int km, l, kml;
+	float km, l, kml;
 	
-	cout <<"Digite a quantidade de quiômetros percorridos:"<< endl;
+	cout <<"Digite a quantidade de quiÃ´metros percorridos:"<< endl;
 	cin >> km;
 	
 	cout <<"Digite a quantidade de litros"<< endl;
