@@ -6,19 +6,19 @@ int main()
 {
   int num1, num2, resto, div;
   
-  cout << "Digite o primeiro número: " << endl;
+  cout << "Digite o primeiro nÃºmero: " << endl;
   cin >> num1;
   
-  cout << "Digite o segundo número: "<< endl;
+  cout << "Digite o segundo nÃºmero: "<< endl;
   cin >> num2;
   
   div = num1/num2;
   resto = num1%num2;
   
   if(resto !=0){
-  	 cout <<"Não são múltiplos"<< endl;
+  	 cout <<"NÃ£o sÃ£o mÃºltiplos"<< endl;
   	  } else {
-  	  	cout <<"São múltiplos"<< endl;
+  	  	cout <<"SÃ£o mÃºltiplos"<< endl;
 		}
  	
  return 0;
