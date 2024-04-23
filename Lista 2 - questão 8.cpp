@@ -17,7 +17,7 @@ int main()
  
  h= sqrt(co*co + ca*ca);
  
- cout <<"O valor da hipotenusa é: "<< h << endl;
+ cout <<"O valor da hipotenusa Ã©: "<< h << endl;
  
  return 0;	
 }
