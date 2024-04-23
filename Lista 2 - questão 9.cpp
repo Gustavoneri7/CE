@@ -7,7 +7,7 @@ int main()
 	
     double d,ct,cm;
     
-    cout << "Digite a distância percorrida: "<< endl;
+    cout << "Digite a distÃ¢ncia percorrida: "<< endl;
     cin >> d;
 
     
@@ -22,7 +22,7 @@ int main()
     cm = ct / d;
    
     cout << "Valor total a pagar: R$" << ct << endl;
-    cout << "Custo médio por km: R$" << cm << endl;
+    cout << "Custo mÃ©dio por km: R$" << cm << endl;
 
     return 0;
 }
