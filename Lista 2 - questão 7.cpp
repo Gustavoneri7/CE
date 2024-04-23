@@ -5,7 +5,7 @@ using namespace std;
 void verificaPrimo(int num) {
     if (num <= 1) 
 	{
-        cout << num << " não é um número primo." << endl;
+        cout << num << " nÃ£o Ã© um nÃºmero primo." << endl;
         return;
     }
     bool primo = true;
@@ -17,9 +17,9 @@ void verificaPrimo(int num) {
     }
     if (primo) 
 	{
-        cout << num << " é um número primo." << endl;
+        cout << num << " Ã© um nÃºmero primo." << endl;
     } else {
-        cout << num << " não é um número primo." << endl;
+        cout << num << " nÃ£o Ã© um nÃºmero primo." << endl;
     }
 }
 
@@ -28,7 +28,7 @@ int main()
     int num;
 
     
-    cout << "Digite um número inteiro: ";
+    cout << "Digite um nÃºmero inteiro: ";
     cin >> num;
 
 
