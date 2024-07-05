@@ -3,41 +3,43 @@
 using namespace std;
 
 struct carro {
-    int ano;
     string cor;
     string modelo;
-    int pot;
-    int valor;
+    float pot;
+    float valor;
     string nome;
+
+    void insere(string stnome, string stcor, float stpot, float stvalor) {
+        nome = stnome;
+        cor = stcor;
+        pot = stpot;
+        valor = stvalor;
+    } 
+    void mostra() {
+        cout << "NOME -----------"<<  nome << endl;
+        cout << "COR ------------"<< cor << endl;
+        cout << "POTENCIA ------------" << pot << endl;
+        cout << "VALOR -------------" << valor << endl;
+    }
+
 };
 int main(){
 
-    carro car1;
-    carro car2;
-    car1.ano = 2007;
-    car1.nome = "Punto";
-    car1.cor = "Azul";
-    car1.pot = 80;
-    car1.valor = 28000;
+    carro* carros = new carro[3];
+    carro car1, car2, car3;
+    carros[0] = car1;
+    carros[1] = car2;
+    carros[2] = car3;
+    
+    carros[0].insere ("Corsa", "Preto", 75, 12000);
+    carros[1].insere ("Santana", "Prata", 80, 10000);
+    carros[2].insere ("Palio", "Branco", 65, 15000);
+   
+    for (int i = 0; i < 3; i++) {
+        carros[i].mostra();
+    }
+    
 
-    car2.ano = 2015;
-    car2.nome = "UP";
-    car2.cor = "Azul";
-    car2.pot = 120;
-    car2.valor = 35000;
-
-
-    cout << car1.ano << endl;
-    cout << car1.nome << endl;
-    cout << car1.cor << endl;
-    cout << car1.pot << endl;
-    cout << car1.valor << endl;
-    cout << "                         " << endl;
-    cout << car2.ano << endl;
-    cout << car2.nome << endl;
-    cout << car2.cor << endl;
-    cout << car2.pot << endl;
-    cout << car2.valor << endl;
 
 
 
